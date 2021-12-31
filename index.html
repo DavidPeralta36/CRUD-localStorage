@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet">
+    <title>CRUD</title>
+</head>
+<body>
+    <script src="localStorage.js"></script>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" >
+                    <div>
+                        <label for="C_Barras">Codigo de barras</label>
+                        <input type="text" name="C_Barras" id="C_Barras">
+                    </div>
+                    <div>
+                        <label for="nomProduct">Nombre del producto</label>
+                        <input type="text" name="nomProduct" id="nomProduct">
+                    </div>
+                    <div>
+                        <label for="Cantidad">Cantidad</label>
+                        <input type="number" name="Cantidad" id="Cantidad">
+                    </div>
+                    <div>
+                        <label for="Precio">Precio</label>
+                        <input type="number" name="Precio" id="Precio">
+                    </div>
+
+                    <div class="Botones">
+                        <input type="submit" value="Enviar" id="btnEnviar">
+                        <input type="reset" value="Cancelar">
+                    </div>
+                </form>
+                
+                <td>
+                    <table class="lista" id="Inventario">
+                        <thead>
+                            <tr>
+                                <th>Codigo de Barras</th>
+                                <th>Nombre del producto</th>
+                                <th>Cantidad</th>
+                                <th>Precio</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

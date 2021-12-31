@@ -1,0 +1,103 @@
+body{
+    background-image: url(images/ABSTRACT_BACKGROUND_01.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+table{
+    background-image: url(images/SL_031721_41490_35.jpg);
+    border-radius: 15px;
+    width: 80%;
+    margin: 40px auto;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+
+table.lista{
+    text-align: center;
+    width: 100%;
+    background-image: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+}
+
+td{
+    border: 1px solid rgb(204,200,200);
+    text-align: left;
+    padding: 8px 15px;
+    border-radius: 15px;
+    
+}
+
+tr:nth-child(even), table.list thread> tr{
+    border-color: ghostwhite;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+}
+
+input[type="text"],input[type="number"]{
+    width:91%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165,161,161);
+    border-radius: 4px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+input:hover, input:focus, input:active{
+    border: 3px indigo solid;
+    color: indigo;
+}
+
+label{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+
+input[type="submit"],input[type="reset"]{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+
+input[type="submit"]:hover{
+    background: #4b99d8;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+
+input[type="reset"]:hover{
+    background: #4b99d8;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+
+button{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+
+button:hover{
+    background:#4b99d8 ;
+}
+
